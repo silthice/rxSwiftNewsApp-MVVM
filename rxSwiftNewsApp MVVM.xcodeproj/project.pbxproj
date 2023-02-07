@@ -15,6 +15,9 @@
 		8031CA392992421400B9AC9A /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031CA382992421400B9AC9A /* NewsTableViewController.swift */; };
 		8031CA3C2992494200B9AC9A /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031CA3B2992494200B9AC9A /* Article.swift */; };
 		8031CA4129924A0700B9AC9A /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031CA4029924A0700B9AC9A /* URLRequest+Extension.swift */; };
+		8031CA4429924BFC00B9AC9A /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031CA4329924BFC00B9AC9A /* ArticleViewModel.swift */; };
+		8031CA4629924C8400B9AC9A /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031CA4529924C8400B9AC9A /* ArticleListViewModel.swift */; };
+		8031CA4929924DC900B9AC9A /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031CA4829924DC900B9AC9A /* ArticleTableViewCell.swift */; };
 		E2D413C5F92DB329BA7E4CDC /* Pods_rxSwiftNewsApp_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BC67C926889BEF0FFF47B3 /* Pods_rxSwiftNewsApp_MVVM.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		8031CA382992421400B9AC9A /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		8031CA3B2992494200B9AC9A /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		8031CA4029924A0700B9AC9A /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
+		8031CA4329924BFC00B9AC9A /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		8031CA4529924C8400B9AC9A /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		8031CA4829924DC900B9AC9A /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		A1D09464766F86F9008BE6DE /* Pods-rxSwiftNewsApp MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxSwiftNewsApp MVVM.release.xcconfig"; path = "Target Support Files/Pods-rxSwiftNewsApp MVVM/Pods-rxSwiftNewsApp MVVM.release.xcconfig"; sourceTree = "<group>"; };
 		B7BC67C926889BEF0FFF47B3 /* Pods_rxSwiftNewsApp_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxSwiftNewsApp_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,6 +81,8 @@
 		8031CA222992403C00B9AC9A /* rxSwiftNewsApp MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				8031CA4729924DB900B9AC9A /* Cells */,
+				8031CA4229924BF000B9AC9A /* ViewModels */,
 				8031CA3D299249EB00B9AC9A /* Extensions */,
 				8031CA3A2992493500B9AC9A /* Models */,
 				8031CA37299241A800B9AC9A /* Controllers */,
@@ -110,6 +118,23 @@
 				8031CA4029924A0700B9AC9A /* URLRequest+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8031CA4229924BF000B9AC9A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8031CA4329924BFC00B9AC9A /* ArticleViewModel.swift */,
+				8031CA4529924C8400B9AC9A /* ArticleListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8031CA4729924DB900B9AC9A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8031CA4829924DC900B9AC9A /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		D637E55BC974E68728C00688 /* Pods */ = {
@@ -239,8 +264,11 @@
 				8031CA4129924A0700B9AC9A /* URLRequest+Extension.swift in Sources */,
 				8031CA3C2992494200B9AC9A /* Article.swift in Sources */,
 				8031CA242992403C00B9AC9A /* AppDelegate.swift in Sources */,
+				8031CA4429924BFC00B9AC9A /* ArticleViewModel.swift in Sources */,
+				8031CA4929924DC900B9AC9A /* ArticleTableViewCell.swift in Sources */,
 				8031CA262992403C00B9AC9A /* SceneDelegate.swift in Sources */,
 				8031CA392992421400B9AC9A /* NewsTableViewController.swift in Sources */,
+				8031CA4629924C8400B9AC9A /* ArticleListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
